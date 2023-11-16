@@ -5,15 +5,14 @@ import Footer from './Components/Footer'
 import './app.css'
 const App = () => {
 
-
-
+  function clickme() {
+    console.log("action done");
+  }
   return (
     <div className="container">
-      {/* <Header />
-      <Footer />
-      <Body></Body> */}
+
       <div className="header"><Header /></div>
-      <div className="body"><Body /></div>
+      <div className="body"><Body fun={clickme} /></div>
       <div className="footer"><Footer /></div>
     </div>
   )
