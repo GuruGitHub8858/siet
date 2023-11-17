@@ -27,7 +27,7 @@ const Body = () => {
         <div className='container'>
             <div className='image'>
                 <img src={Image} alt="images" /> <br />
-                <p className='para'>An image is a visual representation of something. An image can be a two-dimensional (2D) representation, such as a drawing, painting, or photograph, or a three-dimensional (3D) object, such as a carving or sculpture. <br /> <br /> likes: {likes}</p> <br />
+                <p className='para'>An image is a visual representation of something. An image can be a two-dimensional (2D) representation, such as a drawing, painting, or photograph, or a three-dimensional (3D) object, such as a carving or sculpture. <br /> <br /> likers: {likes}</p> <br />
                 <button onClick={count} className='like-button'>Like</button>
             </div>
             <div className='inp'>
