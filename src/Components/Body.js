@@ -3,7 +3,7 @@ import Image from '../Image/download.jpeg';
 import ReactPlayer from 'react-player';
 import './body.css';
 
-const Body = (props) => {
+const Body = () => {
     const [likes, setLikes] = useState(0);
     function count() {
         setLikes(likes + 1);
@@ -38,7 +38,7 @@ const Body = (props) => {
             </div>
             <div>
 
-                <button onClick={props.fun}>Click me</button>
+
             </div>
             <div>
                 <div className='video'>
